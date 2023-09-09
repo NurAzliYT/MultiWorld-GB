@@ -1,14 +1,10 @@
-name: MultiWorld
-author: CzechPMDevs
-authors: [VixikCZ, fuyutsuki, kaliiks]
-api: 3.20.0
-version: 1.6.0-beta6
-main: czechpmdevs\multiworld\MultiWorld
-description: Plugin that manage with worlds
-website: https://github.com/CzechPMDevs/MultiWorld
-mcpe-protocol: [440, 448, 465, 471, 475]
-extensions:
-  Core: '>=7.4'
+name: MultiWorld-GB
+author: NurAzliYT
+authors: [VixikCZ, fuyutsuki, kaliiks, czechpmdevs]
+api: 5.0.0
+version: 1.0.0
+main: NurAzliYT\multiworld\MultiWorld
+description: Plugin that manage with world
 
 permissions:
   multiworld.command:
@@ -23,7 +19,7 @@ permissions:
         default: op
       multiworld.command.teleport:
         description: Permission for /multiworld teleport
-        default: op
+        default: true
       multiworld.command.list:
         description: Permission for /multiworld list
         default: op
